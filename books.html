@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="books.css">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css">
+
+    <title>Books</title>
+</head>
+<body>
+    <!-------header----->
+    <header class="header" id="header">
+        <nav class="nav_contanier">  
+          
+            <a href="index.html" class="nav-logo">
+              <i class="ri-book-3-line"></i> E-Book
+             </a>
+              <ul id="nav_menu">
+                  <li><a href="index.html"> Home</a></li>
+                  <li><a href="books.html"> Books</a></li>
+                  <li><a href="#auther"> Authers</a></li>
+                  <li><a href="index.html#about"> About</a></li>
+              </ul>
+  
+         
+         
+              
+  
+         <div class="nav_actions">
+              <i class="ri-search-line" id="search_button"> </i>
+              <i class="ri-user-3-line" id="user_button"> </i>
+              <i class="ri-moon-clear-fill" id="moon_button"> </i>
+         </div>
+        </nav>
+     
+  <!---------------- SEARCH -->
+  <div class="search" id="search-content">
+      <form action="" class="search-form">
+          <i class="ri-search-line search-icon"> </i>
+          <input type="search" placeholder="What are you looking for?" class="search-input">
+  
+      </form>
+      <i class="ri-close-circle-fill search-close" id="search_close"></i>
+  
+  
+  </div>
+  <!------------- LOGIN -->
+  <div class="login" id="login_content">
+      <form action="" class="login-form">
+          <h3 class="login-title">
+               Log In
+          </h3>
+          <div class="login-group">
+              <div>
+                  <label for="login_email" class="login-label">Email</label>
+                  <input type="email" placeholder="Write your Email" id="login_email" class="login-input">
+              </div>
+  
+              <div>
+                  <label for="login_password" class="login-label">Password</label>
+                  <input type="password" placeholder="Enter your Password" id="login_password" class="login-input">
+              </div>
+          </div>
+          <div>
+              <span class="login-signup">
+                  You do not have an account? <a href="#">Sign up</a>
+              </span>
+              <a href="#" class="login-forgot">
+                  You forgot your password
+              </a>
+              <button type="submit" class="login-button">Log In</button>
+  
+          </div>
+      </form>
+  
+      <i class="ri-close-circle-fill login--close" id="login_close"></i>
+  </div>
+  </header>
+  
+    
+<!--======= BOOKS -->
+
+  <div class="books" id="books">
+ 
+    <div class="book1"><a href="book1.html"><img src="714L.jpg" alt=""></a>
+        <br> <hr> <br> 
+        <strong>Book1:</strong>book price <br>
+        <strong>Book auther:</strong> auther name <br>
+    </div>
+    <div class="book2"> <img src="download.jpg" alt=""></div>
+    <div class="book3"> <img src="81AN.jpg" alt=""></div>
+    <div class="book4"> <img src="71S97CyriiL..jpg" alt=""></div>
+    <div class="book5"> <img src="61.jpg" alt=""></div>
+    <div class="book6"> <img src="81Pd.jpg" alt="">
+        <strong>Book6:</strong>book price <br>
+        <strong>Book auther:</strong> auther name <br>
+    </div>
+    <div class="book7"> <img src="41Q.jpg" alt=""></div>
+    <div class="book8"> <img src="412A.jpg" alt=""></div>
+    <div class="book9"> <img src="31.jpg" alt=""></div>
+    <div class="book10"> <img src="41E.jpg" alt=""></div>
+  </div>
+
+
+  <script src="books.js"></script>
+</body>
+</html>
